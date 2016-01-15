@@ -15,6 +15,11 @@ html {
 //////////CONTAINER///////////////////
 .container {
   background-color: #222;
+  > .footer-bottom {
+      background-color: #2C5E7C;
+      color: white;
+      text-align: center;
+  }
 }
 
 //////////NAVBAR CONTENT///////////////////
@@ -36,7 +41,7 @@ html {
 .secondary-content {
   background-color: #777;
   color: white;
-  margin-top: 70px;
+  margin-top: 40px;
   padding: 50px;
   border-radius: 10px;
     > .row img {
@@ -51,4 +56,5 @@ html {
   color: white;
   text-align: center;
   margin: 20px 0;
+
 }
