@@ -530,4 +530,35 @@ td,
 th {
   padding: 0; }
 
+html {
+  box-sizing: border-box; }
+
+*, *:after, *:before {
+  box-sizing: border-box; }
+
+.container {
+  background-color: #222; }
+
+.main-content {
+  background-color: #3e3e3e;
+  color: white;
+  margin-top: 30px;
+  padding: 50px;
+  border-radius: 10px; }
+
+.secondary-content {
+  background-color: #777;
+  color: white;
+  margin-top: 70px;
+  padding: 50px;
+  border-radius: 10px; }
+  .secondary-content > .row img {
+    margin: 20px 0; }
+
+.main-footer {
+  background-color: #2C5E7C;
+  color: white;
+  text-align: center;
+  margin: 20px 0; }
+
 /*# sourceMappingURL=main.css.map */
