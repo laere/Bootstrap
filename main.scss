@@ -5,3 +5,50 @@
 
 
 //////////BASE STYLES///////////////////
+html {
+  box-sizing: border-box;
+}
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+//////////CONTAINER///////////////////
+.container {
+  background-color: #222;
+}
+
+//////////NAVBAR CONTENT///////////////////
+.main-nav {
+
+}
+
+//////////MAIN CONTENT///////////////////
+.main-content {
+  background-color: #3e3e3e;
+  color: white;
+  margin-top: 30px;
+  padding: 50px;
+  border-radius: 10px;
+
+}
+
+//////////SECONDARY CONTENT///////////////////
+.secondary-content {
+  background-color: #777;
+  color: white;
+  margin-top: 70px;
+  padding: 50px;
+  border-radius: 10px;
+    > .row img {
+          margin: 20px 0;
+    }
+}
+
+
+//////////FOOTER CONTENT///////////////////
+.main-footer {
+  background-color: #2C5E7C;
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+}
