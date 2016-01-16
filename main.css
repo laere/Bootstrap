@@ -531,14 +531,26 @@ th {
   padding: 0; }
 
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  line-height: 1.5; }
 
 *, *:after, *:before {
   box-sizing: border-box; }
 
+body {
+  font-size: 1.5em; }
+
+h1, h2 {
+  font-size: 2.5em; }
+
 .container {
-  background-color: #222; }
-  .container > .footer-bottom {
+  background-color: #666; }
+  .container .nav {
+    font-size: 1.25em; }
+  .container .main-logo {
+    font-size: 2em;
+    color: white; }
+  .container .footer-bottom {
     background-color: #2C5E7C;
     color: white;
     text-align: center; }
@@ -551,11 +563,14 @@ html {
   border-radius: 10px; }
 
 .secondary-content {
-  background-color: #777;
+  background-color: #999;
   color: white;
   margin-top: 40px;
   padding: 50px;
   border-radius: 10px; }
+  .secondary-content > #myTabs {
+    font-weight: bold;
+    font-size: 1.75em; }
   .secondary-content > .row img {
     margin: 20px 0; }
 
@@ -564,5 +579,10 @@ html {
   color: white;
   text-align: center;
   margin: 20px 0; }
+  .main-footer .footer-navs {
+    margin: 50px 0;
+    font-size: 1.15em; }
+    .main-footer .footer-navs > li {
+      margin: 10px 0; }
 
 /*# sourceMappingURL=main.css.map */
